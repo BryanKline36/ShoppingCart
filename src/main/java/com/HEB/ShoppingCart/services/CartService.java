@@ -203,7 +203,7 @@ public class CartService {
                     .subtract(nontaxableDiscount).setScale(2, RoundingMode.FLOOR);
             featureFourDto.setNontaxableSubTotalAfterDiscounts(nonTaxableSubtotalAfterDiscounts);
 
-            //calculate nontaxable subtotal after discounts on only those items
+            //calculate taxable subtotal after discounts on only those items
             BigDecimal taxableSubtotalAfterDiscounts = featureFourDto.getTaxableSubTotal()
                     .subtract(taxableDiscount).setScale(2, RoundingMode.FLOOR);
             featureFourDto.setTaxableSubTotalAfterDiscounts(taxableSubtotalAfterDiscounts);
