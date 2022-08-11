@@ -1,0 +1,27 @@
+[
+  {
+    "constantKey": "TAX_RATE",
+    "constantValue": "0.0825",
+    "constantType": "FLOAT"
+  },
+  {
+    "constantKey": "FEATURE_ONE_DESC",
+    "constantValue": "Feature 1: Calculate the total of the given shopping cart in cart.json.",
+    "constantType": "STRING"
+  },
+  {
+    "constantKey": "FEATURE_TWO_DESC",
+    "constantValue": "Feature 2: Calculate the total of a given shopping cart and include the sales tax amount from the subtotal of the cart.",
+    "constantType": "STRING"
+  },
+  {
+    "constantKey": "FEATURE_THREE_DESC",
+    "constantValue": "Feature 3: Re-calculate the tax total based on the boolean field “isTaxable”. If “isTaxable” is true then calculate sales tax for that item, if it’s false skip the sales tax calculation.",
+    "constantType": "STRING"
+  },
+  {
+    "constantKey": "FEATURE_FOUR_DESC",
+    "constantValue": "Feature 4: Apply the coupon to a customer’s shopping cart if they have any of the items in their cart associated with coupons contained in the coupons.json file.",
+    "constantType": "STRING"
+  }
+]
